@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nalova Store - Bingkisan Snack & Souvenir Ulang Tahun Anak</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        display: ['Fredoka', 'sans-serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            orange: '#EE4D2D', // Warna Khas Shopee
+                            pink: '#FFB5A7',
+                            peach: '#FCD5CE',
+                            light: '#FFF9F8'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-brand-light font-sans text-gray-700 antialiased flex flex-col min-h-screen">
+
+    <!-- Top Banner -->
+    <div class="bg-gradient-to-r from-orange-500 to-rose-500 text-white text-xs py-2 px-4 text-center font-medium shadow-sm">
+        🎈 Nalova Store — Spesialis Bingkisan Snack, Paket Souvenir, & Perlengkapan Acara Anak | Free Custom Kartu Ucapan!
+    </div>
+
+    <!-- Header Navigation -->
+    <nav class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-rose-100 shadow-sm">
+        <div class="max-w-6xl mx-auto px-4 py-3.5 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="w-10 h-10 bg-orange-500 text-white rounded-2xl flex items-center justify-center font-bold text-xl shadow-lg shadow-orange-500/20">
+                    <i class="fa-solid fa-gift"></i>
+                </div>
+                <div>
+                    <span class="font-display font-bold text-2xl text-gray-800 tracking-wide block leading-none">
+                        Nalova<span class="text-orange-500">.store</span>
+                    </span>
+                    <span class="text-[10px] text-gray-400 font-semibold tracking-wider uppercase">Bingkisan Snack & Party Supplies</span>
+                </div>
+            </div>
+
+            <!-- Tombol Ke Toko Shopee Utama -->
+            <a href="PASTE_LINK_TOKO_SHOPEE_NALOVA_DI_SINI" target="_blank" rel="noopener noreferrer" class="bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs px-5 py-2.5 rounded-full shadow-md transition duration-200 flex items-center space-x-2">
+                <i class="fa-solid fa-bag-shopping text-sm"></i>
+                <span>Kunjungi Shopee Nalova</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="py-12 md:py-16 px-4 max-w-6xl mx-auto text-center space-y-6">
+        <div class="inline-flex items-center space-x-2 bg-rose-100 text-rose-600 font-bold text-xs px-4 py-1.5 rounded-full uppercase tracking-wider">
+            <span>⭐ Star Seller Shopee — Rating 4.9+ (Ribuan Terjual)</span>
+        </div>
+        
+        <h1 class="font-display text-3xl sm:text-5xl lg:text-6xl font-extrabold text-gray-800 leading-tight">
+            Bingkisan Snack & Souvenir Ultah <span class="text-orange-500">Praktis, Serba Murah, & Free Custom!</span>
+        </h1>
+        
+        <p class="text-gray-600 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+            Solusi praktis bingkisan ulang tahun anak, acara sekolah, hadiah lomba, hingga perayaan hari besar. Siap kirim dan bisa tambah stiker/label nama custom suka-suka!
+        </p>
+
+        <!-- Kategori Cepat -->
+        <div class="flex flex-wrap justify-center gap-3 pt-2 text-xs font-semibold">
+            <a href="#bingkisan-snack" class="bg-white px-4 py-2 rounded-full border border-rose-200 shadow-sm hover:border-orange-500 hover:text-orange-500 transition">🍿 Bingkisan Snack Ultah</a>
+            <a href="#paket-souvenir" class="bg-white px-4 py-2 rounded-full border border-rose-200 shadow-sm hover:border-orange-500 hover:text-orange-500 transition">✏️ Paket Alat Tulis & Tempat Makan</a>
+            <a href="#perlengkapan" class="bg-white px-4 py-2 rounded-full border border-rose-200 shadow-sm hover:border-orange-500 hover:text-orange-500 transition">🎀 Pita, Tali Rami, & Aksesoris</a>
+        </div>
+    </section>
+
+    <!-- KATALOG PRODUK -->
+    <section id="katalog" class="py-12 px-4 max-w-6xl mx-auto w-full">
+        
+        <!-- KATEGORI 1: BINGKISAN SNACK ULTAH (POPULER) -->
+        <div id="bingkisan-snack" class="mb-14">
+            <div class="flex items-center space-x-3 mb-6 border-b border-rose-200 pb-3">
+                <div class="w-8 h-8 bg-rose-100 text-rose-500 rounded-xl flex items-center justify-center font-bold">
+                    <i class="fa-solid fa-cookie-bite"></i>
+                </div>
+                <div>
+                    <h2 class="font-display text-2xl font-bold text-gray-800">Bingkisan Snack Ulang Tahun & Acara</h2>
+                    <p class="text-xs text-gray-500">Sudah termasuk snack berkualitas, rapi, higienis, dan siap dibagikan</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Produk 1 -->
+                <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-sm hover:shadow-xl transition flex flex-col justify-between group">
+                    <div>
+                        <div class="h-48 bg-rose-50 rounded-2xl mb-4 overflow-hidden relative flex items-center justify-center">
+                            <i class="fa-solid fa-box-open text-5xl text-rose-300"></i>
+                            <span class="absolute top-3 right-3 bg-orange-500 text-white text-[10px] font-bold px-2.5 py-1 rounded-full">Top Seller 10RB+</span>
+                        </div>
+                        <h3 class="font-display text-lg font-bold text-gray-800 group-hover:text-orange-500 transition">(Free Custom) Bingkisan Snack Ultah Ceria</h3>
+                        <p class="text-gray-500 text-xs mt-1 leading-relaxed">
+                            Pilihan favorit untuk ulang tahun, acara sekolah, & lomba. Bebas request custom label nama!
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-50 flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-gray-400 block">Harga di Shopee</span>
+                            <span class="font-display text-lg font-bold text-orange-500">Rp 4.690 - Rp 5.250</span>
+                        </div>
+                        <a href="PASTE_LINK_PRODUK_1_SHOPEE" target="_blank" rel="noopener noreferrer" class="bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs px-4 py-2.5 rounded-xl transition flex items-center space-x-1 shadow-md shadow-orange-500/20">
+                            <span>Beli di Shopee</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 2 -->
+                <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-sm hover:shadow-xl transition flex flex-col justify-between group">
+                    <div>
+                        <div class="h-48 bg-amber-50 rounded-2xl mb-4 overflow-hidden relative flex items-center justify-center">
+                            <i class="fa-solid fa-gifts text-5xl text-amber-300"></i>
+                        </div>
+                        <h3 class="font-display text-lg font-bold text-gray-800 group-hover:text-orange-500 transition">(Paket Hemat 10pcs) Bingkisan Snack Ultah</h3>
+                        <p class="text-gray-500 text-xs mt-1 leading-relaxed">
+                            Beli langsung per paket isi 10 pcs, lebih praktis, hemat, dan pas untuk rombongan kelas.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-50 flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-gray-400 block">Harga di Shopee</span>
+                            <span class="font-display text-lg font-bold text-orange-500">Rp 52.500 <span class="text-[10px] font-normal text-gray-400">/ 10pcs</span></span>
+                        </div>
+                        <a href="PASTE_LINK_PRODUK_2_SHOPEE" target="_blank" rel="noopener noreferrer" class="bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs px-4 py-2.5 rounded-xl transition flex items-center space-x-1 shadow-md shadow-orange-500/20">
+                            <span>Beli di Shopee</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 3 -->
+                <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-sm hover:shadow-xl transition flex flex-col justify-between group">
+                    <div>
+                        <div class="h-48 bg-emerald-50 rounded-2xl mb-4 overflow-hidden relative flex items-center justify-center">
+                            <i class="fa-solid fa-crown text-5xl text-emerald-300"></i>
+                            <span class="absolute top-3 right-3 bg-purple-600 text-white text-[10px] font-bold px-2.5 py-1 rounded-full">Sultan Size</span>
+                        </div>
+                        <h3 class="font-display text-lg font-bold text-gray-800 group-hover:text-orange-500 transition">Bingkisan Snack Sultan & Premium Jumbo</h3>
+                        <p class="text-gray-500 text-xs mt-1 leading-relaxed">
+                            Isi snack lebih melimpah, ada susu UHT/snack bermerek, dikemas mewah dengan pita cantik.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-50 flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-gray-400 block">Harga di Shopee</span>
+                            <span class="font-display text-lg font-bold text-orange-500">Rp 11.000 - Rp 12.999</span>
+                        </div>
+                        <a href="PASTE_LINK_PRODUK_3_SHOPEE" target="_blank" rel="noopener noreferrer" class="bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs px-4 py-2.5 rounded-xl transition flex items-center space-x-1 shadow-md shadow-orange-500/20">
+                            <span>Beli di Shopee</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- KATEGORI 2: PAKET SOUVENIR & ALAT TULIS -->
+        <div id="paket-souvenir" class="mb-14">
+            <div class="flex items-center space-x-3 mb-6 border-b border-rose-200 pb-3">
+                <div class="w-8 h-8 bg-sky-100 text-sky-500 rounded-xl flex items-center justify-center font-bold">
+                    <i class="fa-solid fa-pencil-ruler"></i>
+                </div>
+                <div>
+                    <h2 class="font-display text-2xl font-bold text-gray-800">Paket Souvenir, Alat Tulis, & Tempat Makan</h2>
+                    <p class="text-xs text-gray-500">Hadiah ulang tahun edukatif yang pasti bermanfaat bagi anak</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Produk 4 -->
+                <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-sm hover:shadow-xl transition flex flex-col justify-between group">
+                    <div>
+                        <div class="h-48 bg-sky-50 rounded-2xl mb-4 overflow-hidden relative flex items-center justify-center">
+                            <i class="fa-solid fa-book-open-reader text-5xl text-sky-300"></i>
+                        </div>
+                        <h3 class="font-display text-lg font-bold text-gray-800 group-hover:text-orange-500 transition">Paket Alat Tulis & Buku Mewarnai Karakter</h3>
+                        <p class="text-gray-500 text-xs mt-1 leading-relaxed">
+                            Satu set lengkap buku mewarnai + pensil warna 12 warna. Cocok untuk souvenir TK/PAUD.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-50 flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-gray-400 block">Harga di Shopee</span>
+                            <span class="font-display text-lg font-bold text-orange-500">Rp 7.586 - Rp 10.450</span>
+                        </div>
+                        <a href="PASTE_LINK_PRODUK_4_SHOPEE" target="_blank" rel="noopener noreferrer" class="bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs px-4 py-2.5 rounded-xl transition flex items-center space-x-1 shadow-md shadow-orange-500/20">
+                            <span>Beli di Shopee</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 5 -->
+                <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-sm hover:shadow-xl transition flex flex-col justify-between group">
+                    <div>
+                        <div class="h-48 bg-purple-50 rounded-2xl mb-4 overflow-hidden relative flex items-center justify-center">
+                            <i class="fa-solid fa-bowl-food text-5xl text-purple-300"></i>
+                        </div>
+                        <h3 class="font-display text-lg font-bold text-gray-800 group-hover:text-orange-500 transition">Paket Souvenir Tempat Makan & Botol Minum</h3>
+                        <p class="text-gray-500 text-xs mt-1 leading-relaxed">
+                            Bingkisan tempat makan/botol lucu yang bisa dibawa bekal sekolah anak sehari-hari.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-50 flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-gray-400 block">Harga di Shopee</span>
+                            <span class="font-display text-lg font-bold text-orange-500">Rp 9.200 - Rp 12.000</span>
+                        </div>
+                        <a href="PASTE_LINK_PRODUK_5_SHOPEE" target="_blank" rel="noopener noreferrer" class="bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs px-4 py-2.5 rounded-xl transition flex items-center space-x-1 shadow-md shadow-orange-500/20">
+                            <span>Beli di Shopee</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Produk 6 -->
+                <div class="bg-white rounded-3xl p-5 border border-rose-100 shadow-sm hover:shadow-xl transition flex flex-col justify-between group">
+                    <div>
+                        <div class="h-48 bg-rose-50 rounded-2xl mb-4 overflow-hidden relative flex items-center justify-center">
+                            <i class="fa-solid fa-piggy-bank text-5xl text-rose-300"></i>
+                        </div>
+                        <h3 class="font-display text-lg font-bold text-gray-800 group-hover:text-orange-500 transition">Paket Souvenir Celengan Target Lucu</h3>
+                        <p class="text-gray-500 text-xs mt-1 leading-relaxed">
+                            Bingkisan unik celengan karakter untuk mengedukasi anak gemar menabung.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-gray-50 flex items-center justify-between">
+                        <div>
+                            <span class="text-[10px] text-gray-400 block">Harga di Shopee</span>
+                            <span class="font-display text-lg font-bold text-orange-500">Rp 10.299</span>
+                        </div>
+                        <a href="PASTE_LINK_PRODUK_6_SHOPEE" target="_blank" rel="noopener noreferrer" class="bg-orange-500 hover:bg-orange-600 text-white font-bold text-xs px-4 py-2.5 rounded-xl transition flex items-center space-x-1 shadow-md shadow-orange-500/20">
+                            <span>Beli di Shopee</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- KATEGORI 3: PERLENGKAPAN BINGKISAN & DIY -->
+        <div id="perlengkapan" class="mb-8">
+            <div class="flex items-center space-x-3 mb-6 border-b border-rose-200 pb-3">
+                <div class="w-8 h-8 bg-amber-100 text-amber-500 rounded-xl flex items-center justify-center font-bold">
+                    <i class="fa-solid fa-ribbon"></i>
+                </div>
+                <div>
+                    <h2 class="font-display text-2xl font-bold text-gray-800">Aksesoris & Perlengkapan Packing (DIY)</h2>
+                    <p class="text-xs text-gray-500">Lengkapi kebutuhan packing hampers estetik kamu sendiri di rumah</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
+                <!-- Item 1 -->
+                <div class="bg-white p-4 rounded-2xl border border-rose-100 flex flex-col justify-between">
+                    <div>
+                        <h4 class="font-bold text-xs text-gray-800">Pita Satin 4 cm / Happy Birthday</h4>
+                        <p class="text-[10px] text-gray-400 mt-1">Banyak warna pilihan</p>
+                    </div>
+                    <div class="mt-3 pt-2 border-t flex items-center justify-between">
+                        <span class="text-xs font-bold text-orange-500">Rp 1.650</span>
+                        <a href="PASTE_LINK_PITA_SHOPEE" target="_blank" class="text-[10px] bg-orange-100 text-orange-600 font-bold px-2 py-1 rounded-lg">Cek</a>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="bg-white p-4 rounded-2xl border border-rose-100 flex flex-col justify-between">
+                    <div>
+                        <h4 class="font-bold text-xs text-gray-800">Tali Goni / Tali Rami Warna</h4>
+                        <p class="text-[10px] text-gray-400 mt-1">Kesan rustic & estetik</p>
+                    </div>
+                    <div class="mt-3 pt-2 border-t flex items-center justify-between">
+                        <span class="text-xs font-bold text-orange-500">Rp 649 - Rp 990</span>
+                        <a href="PASTE_LINK_GONI_SHOPEE" target="_blank" class="text-[10px] bg-orange-100 text-orange-600 font-bold px-2 py-1 rounded-lg">Cek</a>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="bg-white p-4 rounded-2xl border border-rose-100 flex flex-col justify-between">
+                    <div>
+                        <h4 class="font-bold text-xs text-gray-800">Kartu Undangan Ultah Anak</h4>
+                        <p class="text-[10px] text-gray-400 mt-1">Banyak varian cewek/cowok</p>
+                    </div>
+                    <div class="mt-3 pt-2 border-t flex items-center justify-between">
+                        <span class="text-xs font-bold text-orange-500">Rp 459 / pcs</span>
+                        <a href="PASTE_LINK_UNDANGAN_SHOPEE" target="_blank" class="text-[10px] bg-orange-100 text-orange-600 font-bold px-2 py-1 rounded-lg">Cek</a>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="bg-white p-4 rounded-2xl border border-rose-100 flex flex-col justify-between">
+                    <div>
+                        <h4 class="font-bold text-xs text-gray-800">Label Plastik Bingkisan Ultah</h4>
+                        <p class="text-[10px] text-gray-400 mt-1">Header lipat kemasan snack</p>
+                    </div>
+                    <div class="mt-3 pt-2 border-t flex items-center justify-between">
+                        <span class="text-xs font-bold text-orange-500">Rp 859</span>
+                        <a href="PASTE_LINK_LABEL_SHOPEE" target="_blank" class="text-[10px] bg-orange-100 text-orange-600 font-bold px-2 py-1 rounded-lg">Cek</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 text-white py-10 px-4 mt-auto text-center space-y-4">
+        <div class="flex items-center justify-center space-x-2">
+            <div class="w-8 h-8 bg-orange-500 text-white rounded-xl flex items-center justify-center font-bold">
+                <i class="fa-solid fa-gift text-sm"></i>
+            </div>
+            <span class="font-display font-bold text-xl text-white">Nalova Store</span>
+        </div>
+        <p class="text-xs text-gray-400 max-w-md mx-auto">
+            Pusat Bingkisan Snack Ulang Tahun, Souvenir, Alat Tulis, & Perlengkapan Acara Anak Terpercaya di Shopee.
+        </p>
+        <div class="pt-2 text-[11px] text-gray-500">
+            &copy; 2026 Nalova Store. All Rights Reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
