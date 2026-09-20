@@ -10,6 +10,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Animasi kelip-kelip lembut & nyaman di mata */
+        @keyframes softBlink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.75; }
+        }
+        .banner-lembut {
+            animation: softBlink 2.5s infinite ease-in-out;
+        }
+    </style>
     <script>
         tailwind.config = {
             theme: {
@@ -33,8 +43,8 @@
 </head>
 <body class="bg-brand-light font-sans text-gray-700 antialiased flex flex-col min-h-screen">
 
-    <!-- TOP BANNER (BERKEDIP / ANIMATE-PULSE) -->
-    <div class="bg-gradient-to-r from-orange-500 via-rose-500 to-orange-500 text-white text-xs py-2.5 px-4 text-center font-bold tracking-wide shadow-sm animate-pulse">
+    <!-- TOP BANNER (BERKEDIP LEMBUT & TIDAK SILAU) -->
+    <div class="bg-gradient-to-r from-orange-500 via-rose-500 to-orange-500 text-white text-xs py-2.5 px-4 text-center font-bold tracking-wide shadow-sm banner-lembut">
         🎈 Nalova Store — Pusat Bingkisan Snack, Souvenir Ultah, & Party Supplies Anak | Free Custom Kartu Ucapan!
     </div>
 
@@ -86,7 +96,7 @@
     <!-- KATALOG PRODUK -->
     <section id="katalog" class="py-12 px-4 max-w-6xl mx-auto w-full">
         
-        <!-- KATEGORI 1: BINGKISAN SNACK ULTAH (POPULER) -->
+        <!-- KATEGORI 1: BINGKISAN SNACK ULTAH -->
         <div id="bingkisan-snack" class="mb-14">
             <div class="flex items-center space-x-3 mb-6 border-b border-rose-200 pb-3">
                 <div class="w-8 h-8 bg-rose-100 text-rose-500 rounded-xl flex items-center justify-center font-bold">
